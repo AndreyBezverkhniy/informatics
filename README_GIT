@@ -1,6 +1,11 @@
 установка
 	LINUX на примере ubuntu
 		sudo apt install git
+	WINDOWS
+		установить git bash отсюда
+		https://git-scm.com/download/win
+запуск терминала в windows
+	правой кнопкой по пустому полу в папке > git bash here
 первоначальная настройка
 	git config --global user.email "ghost@gmail.ru"
 	git config --global user.name "Popov Nikita"
@@ -8,6 +13,10 @@
 	Чтобы начать работу, нужно знать ssh-url репозитория
 	Берёте на странице репозитория, клацнув по кнопке зелёной Clone
 	Там выбираете вклатку ssh, копируете этот адрес вида git@git.../...git
+	Если есть только https, github cli, то https имеет вид
+	https://github.com/creater/repo_name.git
+	преобразуете в вид:
+	git@github.com:creater/repo_name.git
 	Для разных репозиториев желательно создать отдельную папку
 	Заходите в неё.
 	Далее подразумевается, что вы настроили ssh и прикрутили ключик для
