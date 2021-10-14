@@ -1,6 +1,6 @@
-LINUX на примере ubuntu:
 установка
-	sudo apt install git
+	LINUX на примере ubuntu
+		sudo apt install git
 первоначальная настройка
 	git config --global user.email "ghost@gmail.ru"
 	git config --global user.name "Popov Nikita"
@@ -30,5 +30,5 @@ LINUX на примере ubuntu:
 		Вуаля
 как возвращаться к работе
 
-как созранять результат
+как сохранять результат
 
